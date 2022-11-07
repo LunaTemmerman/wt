@@ -1,0 +1,133 @@
+body {
+  max-width: 100rem;
+  margin: 0 auto;
+  background: #e6e6e6;
+  box-shadow: -4px 4px 4px #64646477, 4px 4px 4px #64646477;
+}
+input[type='text'] {
+  width: inherit;
+}
+main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.container--map {
+  order: 0;
+}
+.container--currentheader {
+  order: 1;
+}
+.container--currentcards {
+  order: 2;
+}
+.container--forecastheader {
+  order: 3;
+}
+.container--forecastcards {
+  order: 4;
+}
+html {
+  background: #e6e6e6;
+}
+div.container--map {
+  height: 70vh;
+}
+.ol-viewport,
+.ol-unselectable,
+.ol-layers,
+.ol-layer,
+.ol-layer > canvas {
+  width: 100% !important;
+  transform: none !important;
+}
+.container--currentcards,
+.container--forecastcards,
+.container--map {
+  margin: 0 0 6rem 0;
+}
+.container--map {
+  padding: 0.5rem;
+  position: relative;
+}
+div.map {
+  padding: 0;
+  margin: 0;
+}
+header p.text--red {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+canvas {
+  max-height: 100%;
+}
+.container--graph {
+  overflow-x: scroll;
+}
+div.container--maplayers {
+  margin: 2rem;
+}
+
+@media (max-width: 57.5rem) {
+  .container--currentcards {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .container--currentheader,
+  .container--forecastheader {
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .card--current {
+    margin: 0 auto;
+  }
+  div.container--graph {
+    width: 100%;
+    margin: 0 auto;
+    height: 16.5rem;
+    padding: 0;
+  }
+  canvas#myChart {
+    margin: 1rem;
+    height: 85% !important;
+    min-width: 95%;
+    width: fit-content !important;
+  }
+  body > main {
+    padding: 0 0 3rem 0;
+    min-width: 100%;
+  }
+  div.container {
+    margin-inline: 1rem;
+    width: initial;
+  }
+  div.container--map {
+    margin-inline: 0;
+  }
+  .card--current {
+    max-width: 90%;
+  }
+}
+@media (max-width: 35rem) {
+  body > header {
+    padding: 1rem;
+    justify-content: space-evenly;
+  }
+  .container--currentheader h1,
+  .container--forecastheader h1 {
+    font-size: 2rem;
+  }
+  .container--currentheader > h1.text--bleu {
+    display: none;
+  }
+  div.card--current {
+    width: 100%;
+  }
+  div.middle--current > img.icon {
+    width: 8rem;
+    height: 8rem;
+  }
+}

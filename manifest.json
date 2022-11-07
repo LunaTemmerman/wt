@@ -1,0 +1,203 @@
+{
+  "name": "Weather Today",
+  "short_name": "Weather Today",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "40x40",
+      "type": "image/svg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "public/white/01d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/01n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/02d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/02n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/03d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/03n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/04d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/04n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/09d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/09n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/10d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/10n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/11d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/11n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/13d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/13n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/50d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/white/50n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/01d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/01n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/02d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/02n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/03d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/03n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/04d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/04n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/09d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/09n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/10d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/10n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/11d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/11n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/13d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/13n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/50d.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "public/color/50n.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    }
+  ],
+  "background_color": "#e6e6e6",
+  "theme_color": "#306672"
+}
