@@ -16,7 +16,7 @@ As u may have noticed, I fetched weathermaps from openweathermaps. I displayed t
 3. Humidity
 4. Rain
 There are also some cool animations implemented on these maps (zoom & move to). 
-### Stoybook
+### Storybook
 The front-end was made in Storybook (for HTML). [(learn more)](https://storybook.js.org/) I made my own component library for this, you can find it [here](https://styleguide-wt.lunatemmerman.ikdoeict.be). You can use these components in projects of your own aswell!
 ### GSAP
 The npm package gsap was used for the amazing animations and scrolltriggers in the website. I really recommend using gsap because it lifts web projects to a new level! The documentation is available [here](https://greensock.com/gsap/).
