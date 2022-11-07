@@ -1,9 +1,6 @@
 # Weather Today ![Weather Today Logo](./public/logo.svg)
 Weather Today is a free and open-source weather website. Here you can find all basic information that one may need. This includes the current temperature, weathertype, humidity and wind specifications, a hourly fourcast with the temperature and humidity, and a 14 day forecast with basic information. ☁🌧❄🌙🌞🌝 
 
-<<<<<<< HEAD
-Weather Today is a free and open-source weather website. Here you can find all basic information that one may need. This includes the current temperature, weathertype, humidity and wind specifications, a hourly fourcast with the temperature and humidity, and a 14 day forecast with basic information. This website does use the users geolocation, so the browser will automatically ask for permission to use it.
-=======
 This whole project was made with TypeScript. For Front-End Components, Storybook was used. 📖
 ## Features
 ### Real-time weather data
@@ -41,6 +38,11 @@ To deploy the project simply run
 - **npm i**
 - **npm run build** : To build the project (vite)
 - **npm run dev** : To go in development mode (vite). This also runs the project on your localhost. 
+## What it should look like
+### Home
+![Screenshot Homepage](./public/home.png)
+### Map
+![Screenshot Mappage top](./public/map.png)
 ## License
 MIT License
 
@@ -63,4 +65,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
->>>>>>> ccf0cc7fd4bc2da06f42108bb6d46eeb9acb91cd
