@@ -1,6 +1,8 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('sw.js')
+    .register('https://lunatemmerman.ikdoeict.be/sw.js', {
+      scope: 'https://lunatemmerman.ikdoeict.be/',
+    })
     .then(registration => {
       console.log('SW Registered!');
       console.log(registration);
