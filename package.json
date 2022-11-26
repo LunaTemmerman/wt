@@ -16,6 +16,6 @@
     "chart.js": "^3.9.1",
     "gsap": "^3.11.3",
     "ol": "^7.1.0",
-    "styleguide-wt": "^0.1.9"
+    "styleguide-wt": "^0.2.1"
   }
 }
